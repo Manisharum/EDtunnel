@@ -30,7 +30,7 @@ let proxyPort = proxyIP.includes(':') ? proxyIP.split(':')[1] : '443';
  * SOCKS5 proxy configuration
  * Format: 'username:password@host:port' or 'host:port'
  */
-let socks5Address = '';
+let socks5Address = 'https://cloudflare-dns.com/dns-query';
 
 /**
  * SOCKS5 relay mode
