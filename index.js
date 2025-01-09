@@ -16,7 +16,7 @@ let userID = '3c4add8a-a13e-4589-97a3-f10d5d5d2294';
  * Array of proxy server addresses with ports
  * Format: ['hostname:port', 'hostname:port']
  */
-const proxyIPs = ['143.198.213.197:443'];
+const proxyIPs = ['35.219.50.99:443'];
 
 // Randomly select a proxy server from the pool
 let proxyIP = proxyIPs[Math.floor(Math.random() * proxyIPs.length)];
@@ -30,7 +30,7 @@ let proxyPort = proxyIP.includes(':') ? proxyIP.split(':')[1] : '443';
  * SOCKS5 proxy configuration
  * Format: 'username:password@host:port' or 'host:port'
  */
-let socks5Address = 'https://cloudflare-dns.com/dns-query';
+let socks5Address = '';
 
 /**
  * SOCKS5 relay mode
